@@ -43,6 +43,9 @@ export default function App() {
         expr = expr.replaceAll(ref, String(num));
       }
 
+
+
+      
       const computed = eval(expr);
 
       return { value: computed, error: false };
